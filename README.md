@@ -17,33 +17,27 @@ images/
 
 ---
 
-## 🚀 CDN 使用（推荐）
+## 📡 图片引用方式
 
-基础格式：
+### 1. Raw 官方直链（最稳）
+```
+https://raw.githubusercontent.com/churjan/pic-bed/master/images/文件名.svg
+```
+示例：https://raw.githubusercontent.com/churjan/pic-bed/master/images/404.svg
 
-https://cdn.jsdelivr.net/gh/churjan/pic-bed/images/文件名.png
+### 2. GitHub 网页预览（含下载）
+```
+https://github.com/churjan/pic-bed/blob/master/images/文件名.svg?raw=true
+```
+示例：https://github.com/churjan/pic-bed/blob/master/images/404.svg?raw=true
 
-📌 示例：
+### 3. JsDelivr CDN（国内加速）
+```
+https://cdn.jsdelivr.net/gh/churjan/pic-bed@master/images/文件名.svg
+```
+示例：https://cdn.jsdelivr.net/gh/churjan/pic-bed@master/images/404.svg
 
-https://cdn.jsdelivr.net/gh/churjan/pic-bed/images/avatar.png
-
-Markdown 引用：
-
-![图片](https://cdn.jsdelivr.net/gh/churjan/pic-bed/images/avatar.png)
-
----
-
-## ⚡ GitHub 原始链接（备用）
-
-https://raw.githubusercontent.com/churjan/pic-bed/main/images/文件名.png
-
-📌 示例：
-
-https://raw.githubusercontent.com/churjan/pic-bed/main/images/vue-intro.png
-
-Markdown 引用：
-
-![图片](https://raw.githubusercontent.com/churjan/pic-bed/main/images/vue-intro.png)
+> 推荐使用 CDN 链接，国内访问更快
 
 ---
 
